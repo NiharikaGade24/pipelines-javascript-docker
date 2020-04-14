@@ -11,9 +11,9 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: 'fd858b5c-bcf9-4603-a100-ed68f6a9161e'
+  dockerRegistryServiceConnection: 'AholdSAMRegistryConnection'
   imageRepository: 'niharikagadepipelinesjavascriptdocker'
-  containerRegistry: 'aholdregistry.azurecr.io'
+  containerRegistry: 'aholdsam.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/app/Dockerfile'
   tag: '$(Build.BuildId)'
   
